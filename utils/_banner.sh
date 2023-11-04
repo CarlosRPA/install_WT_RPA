@@ -16,20 +16,21 @@
 #   None
 #######################################
 print_banner() {
-
   clear
 
   printf "\n\n"
 
-  printf "${GREEN}";
-  printf "${NC}";
+  printf "${GREEN}" 
+  printf "          ██████╗ ██╗   ██╗    ██████╗ ██████╗  █████╗ \n"
+  printf "          ██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔══██╗\n"
+  printf "          ██████╔╝ ╚████╔╝     ██████╔╝██████╔╝███████║\n"
+  printf "          ██╔══██╗  ╚██╔╝      ██╔══██╗██╔═══╝ ██╔══██║\n"
+  printf "          ██████╔╝   ██║       ██║  ██║██║     ██║  ██║\n"
+  printf "          ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝\n"
+  printf "${NC}\n"
 
-  printf "\n"
-
-printf "${GREEN}";  
-printf "${NC}";
-  
-  
-
-  printf "\n"
+  printf "${GREEN}"
+  printf "                          BY RPA                                      \n"
+  printf "                  AUTOR ==> CARLOS FRAZÃO <==                           \n"
+  printf "${NC}\n"
 }
